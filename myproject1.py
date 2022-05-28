@@ -19,7 +19,7 @@ def my1():
   xwindow2.geometry('800x900')
 #xwindow.resizable(0,0)
   xwindow2['background']='black'
-  url="https://newsapi.org/v2/top-headlines?country=in&apiKey=b39ee28532094cd3b5b00525ae7e7a4e"
+  url="https://newsapi.org/v2/top-headlines?country=in&apiKey=b39ee"
   global news
   news=requests.get(url).json()
   label=[1,2,3,4,5,6,7,8,9,10]
